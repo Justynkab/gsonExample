@@ -13,13 +13,7 @@ public class Employees {
         this.employees = employees;
     }
 
-
-
-
     public List<Employee> getEmployees() {
         return employees;
     }
-
-
-
 }

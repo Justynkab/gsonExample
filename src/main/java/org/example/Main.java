@@ -25,8 +25,5 @@ public class Main {
                 printer.print(employee);
             }
         }
-
     }
-
-
 }

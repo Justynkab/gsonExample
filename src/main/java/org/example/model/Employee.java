@@ -1,21 +1,18 @@
 package org.example.model;
 
 public class Employee {
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
+    String firstName;
+    String lastName;
 
     public Employee() {
     }
 
-    String firstName;
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
 
     public void setLastName(String lastName) {
         this.lastName = lastName;
     }
-
-    String lastName;
-
-
 }
 
